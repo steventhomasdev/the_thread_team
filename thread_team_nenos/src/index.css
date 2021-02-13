@@ -1,0 +1,9 @@
+.ant-pagination-prev, .ant-pagination-next {
+    line-height: unset !important;
+}
+.btn-add {
+    position: absolute !important;
+    right: 1.5rem;
+    bottom: 2rem;
+    line-height: 0 !important;
+}

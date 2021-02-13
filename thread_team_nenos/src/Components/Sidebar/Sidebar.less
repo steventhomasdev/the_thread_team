@@ -1,0 +1,35 @@
+#sidebar {
+  background: #fff;
+  border-right: 1px solid #f0f0f0;
+  .drawer-logo{
+    display: none;
+  }
+  .ant-menu-item {
+    padding: 0;
+    // ::after{
+    //   border-right: 3px solid #ed54a4 !important;
+    // }
+    a {
+      display: block;
+      padding: 0 16px;
+      &.active {
+        background-color: #f7ecf2;
+        color: #ed54a4;
+        border-right: 3px solid #ed54a4 !important;
+      }
+    }
+  }
+  .ant-menu-submenu-title{
+    padding-left: 16px !important;
+  }
+  .ant-layout-sider-children li{
+    padding-left: 0px !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #sidebar {
+    .drawer-logo{
+      display: flex;
+    }
+  }
+}

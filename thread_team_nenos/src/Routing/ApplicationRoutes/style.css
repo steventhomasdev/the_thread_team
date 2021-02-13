@@ -1,0 +1,36 @@
+.main-container{
+    margin: 70px 0 70px 0;
+    position: relative;
+    /* background-color: #fff; */
+}
+.left-drawer{
+    position: absolute;
+    left:0px;
+    background: #fff;
+    padding: 6px 3px;
+    height: 56px;
+
+  }
+  #sidebar{
+      height: 100%;
+  }
+  .drawer-wrapper{
+      display: none;
+  }
+  .drawer-wrapper .ant-drawer-body{
+    padding: 24px 0;
+}
+.drawer-wrapper #sidebar{
+    min-width: 256px;
+}
+  @media only screen and (max-width: 991px) {
+    .left-drawer{
+     display: block;
+    }
+    .sidemenu-wrapper{
+        display: none;
+    }
+    .drawer-wrapper{
+        display: block;
+    }
+  }
